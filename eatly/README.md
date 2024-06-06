@@ -1,37 +1,12 @@
-# Главная страница приложения Eatly
+# FSD + TS + React + Vite project template
 
-## Описание проекта
+[![Feature-Sliced Design][shields-fsd-image]](https://feature-sliced.design/)
 
-Eatly - это веб-приложение для заказа еды. Главная страница предоставляет пользователю обзор доступных блюд и услуг, а также позволяет ознакомиться с ценами. Дополнительно на данном сайте вы можете ознакомиться с различными новостями и оставить обратную связь.
+Based on official [Vite React Typescript template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts), but slightly changed to match [Feature-Sliced architectural methodology](https://feature-sliced.design/). Here's a list of differences
 
-##  Цель задания
+- Clean and empty [`app root`](./src/app/)
+- Directories for minimal set of FSD slices
+- `src/` path alias for absolute import
+- Advanced [`.gitignore`](./.gitignore)
 
-Основной целью данного задания является отработка следующих навыков:
-- Семантическая верстка: Использование подходящих HTML тегов с учетом их семантики для лучшего понимания содержимого.
-
-- Адаптивная верстка: Создание веб-страниц, которые корректно отображаются на различных устройствах и разрешениях экрана.
-
-- Умение работать с разными браузерами: Гарантирование совместимости проекта с популярными браузерами, такими как Google Chrome, Firefox, Opera, Edge и т.д.
-
-- Работа с декоративными элементами, псевдоэлементами: Использование CSS для стилизации и оформления элементов веб-страницы, включая использование псевдоэлементов для создания декоративных эффектов.
-
-- Анимация: Реализация анимаций для улучшения пользовательского опыта и привлечения внимания к интерактивным элементам.
-
-## Ресурсы
-
-- Макет проекта доступен в Figma: [Figma](https://www.figma.com/file/3aWfY7szo0Ja4M5BKWdia6/Eatly-(1-week)?type=design&node-id=0%3A1&mode=design&t=t6f2ecEr5XWqqvcX-1)
-
-## Запуск проекта
-
-Использовал React, TS, SCSS.
-Испоьзуемая версия node.js - v20.11.0
-
-```bash
-npm install
-# затем
-npm run dev
-```
-
-
-
-
+[shields-fsd-image]: https://img.shields.io/badge/Feature--Sliced-Design-FFFFFF?logoWidth=24&style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTMuNS41aDE3djJoLTE3di0yWm0wIDNoMTd2MmgtMTd2LTJabTAgM2g4djJoLTh2LTJabTAgM2gxN3YyaC0xN3YtMlptMCAzaDE3djJoLTE3di0yWm0wIDNoOHYyaC04di0yWm0wIDNoOHYyaC04di0yWm0wIDNoOHYyaC04di0yWiIvPjwvc3ZnPg==
